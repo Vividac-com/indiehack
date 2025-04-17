@@ -4,28 +4,36 @@ permalink: "/about.html"
 ---
 
 아이디어를 현실로, 1인 기업가의 성장을 위한 동반자.
+
 Turning Ideas into Reality, a Companion for Solopreneur Growth.
 
 Indie Hacking에 오신 것을 환영합니다!
+
 Welcome to Indie Hacking!
 
 이곳은 혼자서, 혹은 작은 팀으로 자신만의 디지털 제품이나 서비스를 만들고 성장시키고자 하는 모든 Indie Hacker들을 위한 공간입니다.
+
 This is a space for all Indie Hackers who want to create and grow their own digital products or services, working solo or in small teams.
 
 # 왜 Indie Hacking 인가요? Why Indie Hacking?
 아이디어를 직접 구현하고, 사용자에게 가치를 전달하며, 스스로 비즈니스를 운영하는 것은 엄청난 매력이 있습니다.
+
 There's immense appeal in bringing your ideas to life, delivering value to users, and running your own business.
 
 하지만 그 과정이 항상 순탄하지만은 않죠.
+
 However, the process isn't always smooth.
 
 정보는 흩어져 있고, 막막함과 외로움을 느끼기도 하며, 예상치 못한 난관에 부딪히기도 합니다.
+
 Information is scattered, feelings of being overwhelmed and lonely can arise, and unexpected challenges often appear.
 
 Indie Hacking(indiehacking.vividac.com)은 바로 이러한 Indie Hacker들의 여정에 든든한 동반자가 되고자 합니다.
+
 Indie Hacking(indiehacking.vividac.com) aims to be a reliable companion on this journey for Indie Hackers.
 
 우리는 경험과 지식을 나누고, 서로에게 영감을 주며, 함께 성장하는 커뮤니티를 지향합니다.
+
 We aim to be a community that shares experiences and knowledge, inspires one another, and grows together.
 
 # 누구를 위한 곳인가요? Who is for?
@@ -43,12 +51,15 @@ We aim to be a community that shares experiences and knowledge, inspires one ano
 
 # 우리의 비전 Our Vision
 Indie Hacking(indiehacking.vividac.com)은 단순히 정보를 제공하는 것을 넘어, 모든 Indie Hacker가 자신만의 방식으로 성공하고 지속 가능한 성장을 이루며 원하는 삶을 살아갈 수 있도록 지원하는 것을 목표로 합니다.
+
 Beyond simply providing information, IndieHacking(indiehacking.vividac.com)'s goal is to support every Indie Hacker in achieving success in their own way, attaining sustainable growth, and living the life they desire.
 
 혼자서는 어렵지만, 함께라면 더 멀리 갈 수 있습니다.
+
 It's tough alone, but together, we can go further.
 
 지금 바로 Indie Hacking과 함께 당신의 Indie Hacking 여정을 시작하세요!
+
 Start your Indie Hacking journey with IndieHacking right now!
 
 # 도구 및 서비스 등록 요청 Request to List Tool/Service
