@@ -48,6 +48,6 @@ exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffe
 
 # Collections
 collections:
-  Products:
+  products:
     output: true
     permalink: /:collection/:categories:output_ext
