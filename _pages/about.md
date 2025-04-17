@@ -40,12 +40,10 @@ We aim to be a community that shares experiences and knowledge, inspires one ano
 ### Indie Hacking에서 무엇을 얻을 수 있나요? What can you gain from Indie Hacking?
 * 실용적인 정보와 노하우: 아이디어 검증, MVP 제작, 사용자 확보, 수익화, 마케팅 등 Indie Hacking 전 과정에 필요한 실질적인 팁과 전략을 공유합니다. 
 * 영감을 주는 이야기: 성공과 실패를 넘나드는 다른 Indie Hacker들의 생생한 경험담을 통해 배우고 동기 부여를 얻을 수 있습니다.
-* 활발한 커뮤니티: 궁금한 것을 질문하고, 자신의 경험을 나누며, 서로에게 지지와 격려를 보내는 따뜻한 커뮤니티에 참여할 수 있습니다. (예: 포럼, 댓글, Q&A 게시판 등)
 * 유용한 리소스: Indie Hacking 여정에 도움이 될 만한 각종 도구, 서비스, 아티클, 추천 도서 등의 정보를 큐레이션하여 제공합니다.
 
 * Practical Information and Know-How: We share practical tips and strategies needed throughout the entire Indie Hacking process, including idea validation, MVP creation, user acquisition, monetization, and marketing.
 * Inspiring Stories: You can learn and get motivated through the vivid experiences of other Indie Hackers, covering both successes and failures.
-* Active Community: You can participate in a supportive community where you can ask questions, share your experiences, and offer support and encouragement to each other (e.g., forums, comments, Q&A boards).
 * Useful Resources: We curate and provide information on various tools, services, articles, recommended books, etc., that can aid your Indie Hacking journey.
 
 ### 우리의 비전 Our Vision
@@ -58,7 +56,7 @@ Beyond simply providing information, IndieHacking(indiehacking.vividac.com)'s go
 It's tough alone, but together, we can go further. Start your Indie Hacking journey with IndieHacking right now!
 
 ### 도구 및 서비스 등록 요청 Request to List Tool/Service
-아래의 링크에서 등록 요청을 해주세요. Please submit your request using the link below
+아래의 링크에서 등록 요청을 해주세요. Please submit your request using the link below.
 
 [Request Form](https://forms.gle/wxi6LM2o2mR8L3yX7)
 
