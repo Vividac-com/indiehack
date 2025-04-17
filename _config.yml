@@ -9,7 +9,7 @@ disqus: ''
 email: 'hello@vividac.com'
 
 include: ["_pages"]
-permalink: /:title/
+permalink: /:categories/:title/
 
 # Plugins1
 plugins: 
@@ -25,10 +25,9 @@ defaults:
   # all posts
   - scope:
       type: posts
-      #path: "_posts"
+      path: "_posts"
     values:
       layout: post
-      permalink: /:categories/:title/
       
   # all pages
   - scope:
