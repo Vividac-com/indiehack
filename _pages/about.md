@@ -1,7 +1,6 @@
 ---
 title: "About"
 permalink: "/about.html"
-image: ""
 ---
 
 아이디어를 현실로, 1인 기업가의 성장을 위한 동반자.
@@ -29,7 +28,7 @@ Indie Hacking(indiehacking.vividac.com) aims to be a reliable companion on this 
 우리는 경험과 지식을 나누고, 서로에게 영감을 주며, 함께 성장하는 커뮤니티를 지향합니다.
 We aim to be a community that shares experiences and knowledge, inspires one another, and grows together.
 
-#누구를 위한 곳인가요? Who is for?
+# 누구를 위한 곳인가요? Who is for?
 * 자신만의 아이디어를 디지털 제품/서비스로 만들고 싶은 예비 창업가 Aspiring entrepreneurs who want to turn their own ideas into digital products/services.
 * 사이드 프로젝트를 통해 추가 수입 또는 커리어 전환을 꿈꾸는 분 Individuals dreaming of additional income or a career change through side projects.
 * 이미 1인 기업 또는 Micro-SaaS를 운영하며 성장 동력을 찾고 있는 분 Those already running a solo business or Micro-SaaS and looking for growth drivers.
@@ -55,5 +54,5 @@ Start your Indie Hacking journey with IndieHacking right now!
 # 도구 및 서비스 등록 요청 Request to List Tool/Service
 아래의 링크에서 등록 요청을 해주세요. Please submit your request using the link below
 
-https://forms.gle/wxi6LM2o2mR8L3yX7
+[Request Form](https://forms.gle/wxi6LM2o2mR8L3yX7).
 
