@@ -11,7 +11,7 @@ email: 'hello@vividac.com'
 include: ["_pages"]
 permalink: /:title/
 
-# Plugins
+# Plugins1
 plugins: 
   - jekyll-feed
   - jekyll-sitemap
