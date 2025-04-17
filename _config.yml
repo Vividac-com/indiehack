@@ -31,7 +31,7 @@ defaults:
       layout: post
       comments: true # Enable comments in posts.
       toc: true # Display TOC column in posts.
-      permalink: /:categories/:path/:title
+      permalink: /:categories/:path/_posts
       
   # all pages
   - scope:
