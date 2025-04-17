@@ -25,7 +25,8 @@ defaults:
   # all posts
   - scope:
       type: posts
-      path: "_posts"
+      #path: "_posts"
+      permalink: /:categories/:title/
     values:
       layout: post
       
