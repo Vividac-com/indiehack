@@ -7,7 +7,7 @@ Interested in collaborating with IndieHacking or learning more? Reach out to us 
 
 email: hello@vividac.com
 
-## 도구 및 서비스 등록 요청 Request to List Tool/Service
+### 도구 및 서비스 등록 요청 Request to List Tool/Service
 아래의 링크에서 등록 요청을 해주세요. Please submit your request using the link below
 
 [Request Form](https://forms.gle/wxi6LM2o2mR8L3yX7)
