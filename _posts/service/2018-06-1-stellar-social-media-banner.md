@@ -1,7 +1,7 @@
 ---
 title:  "Stellar Social Media Banner Pack"
 metadate: "Service"
-service_categories: [ Premium, UI, Graphics ]
+categories: [ Premium, UI, Graphics ]
 image: "/assets/images/stellar.jpg"
 visit: "https://crmrkt.com/jVMvBb"
 ---
