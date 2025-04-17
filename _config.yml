@@ -24,9 +24,11 @@ defaults:
 
   # all posts
   - scope:
-      path: "_posts"
+      #path: "_posts"
+      path: "/:categories/:path/_posts"
     values:
       layout: post
+      permalink: /:categories/:path/_posts"
       
   # all pages
   - scope:
