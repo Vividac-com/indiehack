@@ -9,7 +9,7 @@ permalink: "/about.html"
 Turning Ideas into Reality, a Companion for Solopreneur Growth. Welcome to IndieHacking!
 This is a space for all Indie Hackers who want to create and grow their own digital products or services, working solo or in small teams.
 
-# 왜 인디해킹 인가요? Why IndieHacking?
+## 왜 인디해킹 인가요? Why IndieHacking?
 아이디어를 직접 구현하고, 사용자에게 가치를 전달하며, 스스로 비즈니스를 운영하는 것은 엄청난 매력이 있습니다.
 하지만 그 과정이 항상 순탄하지만은 않죠.
 정보는 흩어져 있고, 막막함과 외로움을 느끼기도 하며, 예상치 못한 난관에 부딪히기도 합니다.
@@ -24,7 +24,7 @@ Information is scattered, feelings of being overwhelmed and lonely can arise, an
 IndieHacking(indiehacking.vividac.com) aims to be a reliable companion on this journey for Indie Hackers.
 We aim to be a community that shares experiences and knowledge, inspires one another, and grows together.
 
-# 누구를 위한 곳인가요? Who is for?
+## 누구를 위한 곳인가요? Who is for?
 * 자신만의 아이디어를 디지털 제품/서비스로 만들고 싶은 예비 창업가
 * 사이드 프로젝트를 통해 추가 수입 또는 커리어 전환을 꿈꾸는 분
 * 이미 1인 기업 또는 Micro-SaaS를 운영하며 성장 동력을 찾고 있는 분
@@ -48,7 +48,7 @@ We aim to be a community that shares experiences and knowledge, inspires one ano
 * Active Community: You can participate in a supportive community where you can ask questions, share your experiences, and offer support and encouragement to each other (e.g., forums, comments, Q&A boards).
 * Useful Resources: We curate and provide information on various tools, services, articles, recommended books, etc., that can aid your Indie Hacking journey.
 
-# 우리의 비전 Our Vision
+## 우리의 비전 Our Vision
 인디해킹(indiehacking.vividac.com)은 단순히 정보를 제공하는 것을 넘어, 모든 Indie Hacker가 자신만의 방식으로 성공하고 지속 가능한 성장을 이루며 원하는 삶을 살아갈 수 있도록 지원하는 것을 목표로 합니다.
 
 혼자서는 어렵지만, 함께라면 더 멀리 갈 수 있습니다. 지금 바로 Indie Hacking과 함께 당신의 Indie Hacking 여정을 시작하세요!
@@ -57,7 +57,7 @@ Beyond simply providing information, IndieHacking(indiehacking.vividac.com)'s go
 
 It's tough alone, but together, we can go further. Start your Indie Hacking journey with IndieHacking right now!
 
-# 도구 및 서비스 등록 요청 Request to List Tool/Service
+## 도구 및 서비스 등록 요청 Request to List Tool/Service
 아래의 링크에서 등록 요청을 해주세요. Please submit your request using the link below
 
 [Request Form](https://forms.gle/wxi6LM2o2mR8L3yX7)
