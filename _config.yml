@@ -26,9 +26,9 @@ defaults:
   - scope:
       type: posts
       #path: "_posts"
-      permalink: /:categories/:title/
     values:
       layout: post
+      permalink: /:categories/:title/
       
   # all pages
   - scope:
