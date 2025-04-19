@@ -2,7 +2,7 @@
 title:  "Heroicons"
 metadate: "hide"
 categories: [Icon Libraries]
-image: "https://www.figma.com/community/resource/6cfd4913-bd0a-4d8d-b642-b6ebf9826765/thumbnail"
+image: "https://tailwindcss.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbanner.8a379352.png&w=3840&q=75"
 visit: "https://heroicons.com/"
 ---
 
