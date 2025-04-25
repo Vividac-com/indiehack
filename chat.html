@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <style type="text/css">
+        .iframe-container {
+            width: 96%;
+            height: 100%;
+            overflow: hidden;
+        }
+    </style>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
+</head>
+<body>
+
+    <!-- Start of gsretail1709095353 Zendesk Widget script -->
+        <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=65194955-c882-48c4-9ddf-4ee46c95a55a"> </script>
+    <!-- End of gsretail1709095353 Zendesk Widget script -->
+    <script>
+    $(window).on('load', function() {
+        // 창의 모든 콘텐츠(이미지, iframe 등)가 로드된 후 실행
+    
+        // *** 감지하려는 iframe의 선택자를 정확히 정의하세요. ***
+        // 원본 코드의 콘솔 로그 메시지("Title이 '메시징 창'인 iframe을 찾음")에 맞춰 title 속성으로 찾는 것으로 가정합니다.
+        // 만약 name 속성이 '메시지 창'이라면 아래 셀렉터를 이렇게 변경하세요:
+        // const iframeSelector = 'iframe[name="메시지 창"]';
+        const iframeSelector = 'iframe[title="메시징 창"]';
+    
+        const checkInterval = 500; // 0.5초 (밀리초)
+    
+        console.log(`[${iframeSelector}] iframe 감지 시작 (${checkInterval}ms 간격)...`);
+    
+        // iframe 존재 여부를 비동기적으로 반복 체크하는 함수
+        function pollForIframeExistence() {
+          // 현재 시점에 해당 선택자에 맞는 iframe 요소를 찾습니다.
+          const foundIframes = $(iframeSelector);
+    
+          // 찾은 iframe이 하나 이상인지 확인합니다. (올바른 jQuery 길이 확인: .length)
+          if (foundIframes.length > 0) {
+            // iframe이 감지되었을 때
+    
+            // --- 원본 코드의 로직을 여기에 적용 ---
+            // 원본 코드의 targetIframe[1].length 체크는 불필요하며,
+            // targetIframe[1].style[...] 대신 jQuery의 .css()를 사용합니다.
+    
+            console.log(`선택자 "${iframeSelector}"에 해당하는 iframe ${foundIframes.length}개를 감지했습니다.`);
+    
+            // 감지된 iframe들 모두에 대해 스타일 적용 (jQuery 객체에 .css() 사용)
+            // 만약 특정 인덱스(예: 두 번째 요소)에만 적용하려면 foundIframes.eq(1).css({...}); 와 같이 사용합니다.
+            foundIframes.css({
+              'width': '96%',
+              'height': '100%'
+            });
+    
+            console.log("감지된 iframe들의 스타일을 변경했습니다.");
+    
+            // **중요:** 목표를 달성했으므로 더 이상 반복 체크를 예약하지 않고 함수를 종료합니다.
+            // 비동기 루프(Polling)가 여기서 멈춥니다.
+    
+          } else {
+            // iframe이 아직 감지되지 않았을 때
+            console.log(`선택자 "${iframeSelector}"에 해당하는 iframe을 아직 찾지 못했습니다. ${checkInterval}ms 후 재확인...`);
+            // checkInterval 밀리초 후에 pollForIframeExistence 함수를 다시 실행하도록 예약
+            setTimeout(pollForIframeExistence, checkInterval);
+          }
+        }
+    
+        // 최초 감지 체크 시작
+        pollForIframeExistence();
+    
+      });
+    </script>
+</body>
+</html>
