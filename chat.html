@@ -3,6 +3,44 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
+    <style>
+        /* 기본 스타일 (세로 모드 스타일로 시작) */
+body {
+  background-color: lightblue; /* 세로 모드 기본 배경색 */
+  font-size: 1rem; /* 세로 모드 기본 글씨 크기 (예: 16px) */
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+/* 가로 모드일 때 적용되는 스타일 */
+@media (orientation: landscape) {
+  body {
+    background-color: lightgreen; /* 가로 모드 배경색 변경 */
+    font-size: 1.1rem; /* 가로 모드에서 글씨 크기를 약간 키울 수 있습니다. */
+  }
+
+  h1 {
+    font-size: 2.2rem; /* 가로 모드에서 제목 글씨 크기 조절 */
+  }
+
+  /* 가로 모드에 맞춰 레이아웃 조정 (예: Flexbox 방향 변경 등) */
+  .container {
+    display: flex;
+    flex-direction: row; /* 가로 모드에서는 요소들을 가로로 배치 */
+  }
+}
+
+/* 세로 모드일 때 적용되는 스타일 (선택 사항 - 기본 스타일이 세로 모드에 맞춰져 있다면 불필요) */
+@media (orientation: portrait) {
+  /* 만약 기본 스타일이 가로 모드 기준이라면 여기에 세로 모드 스타일을 정의 */
+  .container {
+    display: flex;
+    flex-direction: column; /* 세로 모드에서는 요소들을 세로로 배치 */
+  }
+}
+    </style>
 </head>
 <body>
 
