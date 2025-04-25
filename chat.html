@@ -1,53 +1,85 @@
 <html>
-
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
     <style>
-        /* 기본 스타일 (세로 모드 스타일로 시작) */
-body {
-  background-color: lightblue; /* 세로 모드 기본 배경색 */
-  font-size: 1rem; /* 세로 모드 기본 글씨 크기 (예: 16px) */
-}
+        /* 기본 스타일 */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
 
-h1 {
-  font-size: 2rem;
-}
+        /* 메인 컨테이너 */
+        .container {
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 80%;
+            max-width: 400px;
+        }
 
-/* 가로 모드일 때 적용되는 스타일 */
-@media (orientation: landscape) {
-  body {
-    background-color: lightgreen; /* 가로 모드 배경색 변경 */
-    font-size: 1.1rem; /* 가로 모드에서 글씨 크기를 약간 키울 수 있습니다. */
-  }
+        /* 타이틀 */
+        h1 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
 
-  h1 {
-    font-size: 2.2rem; /* 가로 모드에서 제목 글씨 크기 조절 */
-  }
+        /* 설명 텍스트 */
+        p {
+            color: #666;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
 
-  /* 가로 모드에 맞춰 레이아웃 조정 (예: Flexbox 방향 변경 등) */
-  .container {
-    display: flex;
-    flex-direction: row; /* 가로 모드에서는 요소들을 가로로 배치 */
-  }
-}
+        /* 상담 시작 버튼 */
+        .start-btn {
+            background-color: #4CAF50;
+            color: white;
+            font-size: 18px;
+            padding: 15px;
+            border: none;
+            border-radius: 8px;
+            width: 100%;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
 
-/* 세로 모드일 때 적용되는 스타일 (선택 사항 - 기본 스타일이 세로 모드에 맞춰져 있다면 불필요) */
-@media (orientation: portrait) {
-  /* 만약 기본 스타일이 가로 모드 기준이라면 여기에 세로 모드 스타일을 정의 */
-  .container {
-    display: flex;
-    flex-direction: column; /* 세로 모드에서는 요소들을 세로로 배치 */
-  }
-}
+        .start-btn:hover {
+            background-color: #45a049;
+        }
+
+        /* 하단 텍스트 */
+        footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #888;
+        }
     </style>
 </head>
 <body>
+    <div class="container">
+        <h1>1:1 상담을 시작하세요!</h1>
+        <p>친절한 상담원과 함께 궁금한 점을 해결해보세요. 언제든지 시작할 수 있습니다.</p>
+        <button id="chatStart" class="start-btn">상담 시작</button>
+        <footer>
+            <p>상담 서비스 이용약관 및 개인정보처리방침</p>
+        </footer>
+    </div>
 
     <!-- Start of gsretail1709095353 Zendesk Widget script -->
         <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=65194955-c882-48c4-9ddf-4ee46c95a55a"> </script>
     <!-- End of gsretail1709095353 Zendesk Widget script -->
     <script>
+
     $(window).on('load', function() {
         // 창의 모든 콘텐츠(이미지, iframe 등)가 로드된 후 실행
     
@@ -93,13 +125,28 @@ h1 {
             console.log(`선택자 "${iframeSelector}"에 해당하는 iframe을 아직 찾지 못했습니다. ${checkInterval}ms 후 재확인...`);
             // checkInterval 밀리초 후에 pollForIframeExistence 함수를 다시 실행하도록 예약
             setTimeout(pollForIframeExistence, checkInterval);
+
+            //화면 숨기기
+            //var hideIframe = document.getElementsByTagName('iframe');
+            //if(hideIframe.length > 0) {
+            //    hideIframe[1].style.display = 'none';
+            //}
           }
         }
     
         // 최초 감지 체크 시작
         pollForIframeExistence();
+
+        //클릭 이벤트 감지
+        // '상담 시작' 버튼 클릭 이벤트 리스너
+        $('#chatStart').click(function() {
+            //btn = document.querySelector('button[aria-label="메시징 창 열기"]');
+            //btn.click();
+            $('button[aria-label="메시징 창 열기"]').trigger('click');
+        });
     
       });
+
     </script>
 </body>
 </html>
